@@ -1,7 +1,7 @@
 # Tugas Pendahuluan 02: Pemrograman JavaScript
 
-Nama  : Putra Anugrah Pamungkas
-Kelas : SE-08-01
+Nama  : Putra Anugrah Pamungkas <br>
+Kelas : SE-08-01 <br>
 NIM   : 103122400007
 
 ## Soal  
