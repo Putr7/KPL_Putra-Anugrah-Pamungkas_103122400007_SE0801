@@ -1,4 +1,9 @@
 # Tugas Pendahuluan 03: GUI dengan HTML dan CSS
+
+Nama  : Putra Anugrah Pamungkas
+Kelas : SE-08-01
+NIM   : 103122400007
+
 ## Soal  
 Buatlah tata letak laman yang kamu buat berada di tengah, dan juga ubah font-nya dengan Inconsolata dari Google Fonts.
 
