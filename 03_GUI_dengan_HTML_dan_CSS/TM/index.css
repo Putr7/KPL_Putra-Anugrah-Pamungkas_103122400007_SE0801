@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.kotak-input {
+    font-family: 'Inconsolata', monospace;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+span {
+    color: orange;
+    font-weight: bold;
+}
