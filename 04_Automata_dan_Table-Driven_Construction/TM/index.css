@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.kotak-input {
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Inconsolata', monospace;
+    background-color: #29ddcc;
+    color: #333333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+span {
+    color: #ff7f50; 
+    font-weight: bold;
+}
+
+body.tema-gelap {
+    background-color: #2d323e;
+    color: #ffffff;
+}
+
+.tema-gelap .kotak-input {
+    background-color: transparent; 
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.tema-gelap button { 
+    background-color: #29ddcc;
+    color: #000000;
+    border: none;
+}
+
+body.tema-sepia {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+
+.tema-sepia .kotak-input {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #c9bca6;
+}
+
+.tema-sepia button { 
+    background-color: #29ddcc;
+    color: #000000;
+    border: none;
+}
